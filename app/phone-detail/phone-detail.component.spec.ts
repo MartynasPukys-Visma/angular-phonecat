@@ -3,7 +3,7 @@
 describe('phoneDetail', function() {
 
   // Load the module that contains the `phoneDetail` component before each test
-  beforeEach(module('phoneDetail'));
+  beforeEach(angular.mock.module('phoneDetail'));
 
   // Test the controller
   describe('PhoneDetailController', function() {
